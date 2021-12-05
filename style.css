@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+h1 {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+hr {
+  width: 15rem;
+  border-top: 5px solid aqua;
+}
+.container {
+  width: 50rem;
+  height: 30rem;
+  background-color: azure;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+  display: block;
+  margin: 2rem auto -1rem auto;
+}
+.author {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+}
+.job {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.review {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0 2rem -1rem 2rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.random {
+  display: block;
+  margin: 1rem auto 1rem auto;
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: green;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.left-btn {
+  background: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.right-btn {
+  background: transparent;
+  border: none;
+  font-size: 3rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
